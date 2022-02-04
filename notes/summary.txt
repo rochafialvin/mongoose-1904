@@ -1,0 +1,5 @@
+1. Mongoose adalah sebuah library yang digunakan untuk berinteraksi dengan mongodb.
+2. Schema digunakan untuk menentukan field apa saja yang akan ada pada sebuah collection.
+3. Dengan schema juga dapat menentukan tipe data dari setiap field dan menerapkan beberapa kondisi seperti required untuk mewajibkan field ini untuk di isi, lalu ada minlength dan maxlength untuk menentukan minimal dan maksimal karakter yang dapat diterima, yang terakhir terdapat function validate untuk menerapkan filtering manual, yang tidak tersedia oleh mongoose seperti validasi bentuk email yg memanfaatkan validator isEmail.
+4. method save() berfungsi untuk menyimpan data ke dalam database. Membuat atau mengupdate user baru, jika tidak disertai dengan pemanggilan method ini maka tidak akan berhasil.
+5. Method pada mongodb itu tersedia pada mongoose, namun mongoose juga memiliki method bawaan seperti findById.
